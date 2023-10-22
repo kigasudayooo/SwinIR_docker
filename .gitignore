@@ -1,10 +1,12 @@
 #*.csv
 .ipynb_checkpoints
 data
-src/competitions/signate/*.csv
+src/testsets
+src/model_zoo/swinir
 .html
 
 .png
 .jpg
 .JPG
 .tif
+.pth
