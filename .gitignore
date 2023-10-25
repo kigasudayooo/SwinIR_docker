@@ -1,10 +1,9 @@
 #*.csv
 .ipynb_checkpoints
 data
-src/competitions/signate/*.csv
-.html
+*.html
 
-.png
-.jpg
-.JPG
-.tif
+*.png
+*.jpg
+*.JPG
+*.tif
