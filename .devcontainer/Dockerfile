@@ -7,7 +7,8 @@ WORKDIR /SwinIR_docker
 # ローカルPCのファイルをコンテナのカレントディレクトリにコピー
 COPY requirements.txt ${pwd}
 
-RUN apt-get update && apt-get install -y gcc vim
+RUN apt-get update && apt-get install -y gcc vim libgl1-mesa-dev libglib2.0-0
+
 
 # pipのアップデート
 RUN pip install --upgrade pip 
